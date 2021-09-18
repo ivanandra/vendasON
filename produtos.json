@@ -1,0 +1,264 @@
+{
+	"produtos":	[
+		{
+			"id": "sardela",
+			"nome_produto": "Sardela",
+			"descricao": "Pimentão vermelho, tomates frescos e Aliche.",
+			"descricaoPagina": "Terrines feitos especialmente para você. Uma combinação especial de queijos e especiarias, prontos para consumir com um belo Pão da Mona Condimentos.",
+			"descricaoComoServir": "O Nosso Terrine é recomendado servir fresco e acompanhado de um belo Pão Italiano, para desmanchar na boca a mais alta qualidade de sabores da Mona Condimentos.",
+			"color": "#007FC4",
+			"thumbnail": "/images/img01.jpeg", 
+			"valor": "R$ 20,00",
+			"galeria": [{
+				"01": {
+					"src": "/images/img01.jpeg",
+					"alt": "",
+					"title": ""
+				},
+				"02": {
+					"src": "/images/img02.jpeg",
+					"alt": "",
+					"title": ""
+				},
+				"03": {
+					"src": "/images/img03.jpeg",
+					"alt": "",
+					"title": ""
+				},
+				"04": {
+					"src": "/images/img04.jpeg",
+					"alt": "",
+					"title": ""
+				}
+			}]
+		},	
+		{
+			"id": "terrinegorgonzola",
+			"nome_produto": "Terrine",
+			"descricao": "A base de Queijos Gorgonzola.",
+			"descricaoPagina": "Terrines feitos especialmente para você. Uma combinação especial de queijos e especiarias, prontos para consumir com um belo Pão da Mona Condimentos.",
+			"descricaoComoServir": "O Nosso Terrine é recomendado servir fresco e acompanhado de um belo Pão Italiano, para desmanchar na boca a mais alta qualidade de sabores da Mona Condimentos.",
+			"color": "#E7C000",
+			"thumbnail": "/images/img02.jpeg", 
+			"valor": "R$ 25,00",
+			"galeria": [{
+				"01": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/117/desktop/cabelo-de-anjo01.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"02": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/117/desktop/cabelo-de-anjo02.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"03": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/117/desktop/cabelo-de-anjo03.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"04": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/117/desktop/cabelo-de-anjo04.jpg",
+					"alt": "",
+					"title": ""
+				}
+			}]
+
+		},
+		{
+			"id": "terrinepesto",
+			"nome_produto": "Terrine Pesto",
+			"descricao": "A base de Queijos e Manjericão",
+			"descricaoPagina": "Terrines feitos especialmente para você. Uma combinação especial de queijos e especiarias, prontos para consumir com um belo Pão da Mona Condimentos.",
+			"descricaoComoServir": "O Nosso Terrine é recomendado servir fresco e acompanhado de um belo Pão Italiano, para desmanchar na boca a mais alta qualidade de sabores da Mona Condimentos.",
+			"color": "#E7C000",
+			"thumbnail": "/images/img02.jpeg", 
+			"valor": "R$ 25,00",
+			"galeria": [{
+				"01": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/117/desktop/cabelo-de-anjo01.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"02": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/117/desktop/cabelo-de-anjo02.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"03": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/117/desktop/cabelo-de-anjo03.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"04": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/117/desktop/cabelo-de-anjo04.jpg",
+					"alt": "",
+					"title": ""
+				}
+			}]
+
+		},
+		{	
+			"id": "paes",
+			"nome_produto": "Pão Italiano",
+			"descricao": "Pães Caseiros Italianos e Australianos!",
+			"descricaoPagina": "Terrines feitos especialmente para você. Uma combinação especial de queijos e especiarias, prontos para consumir com um belo Pão da Mona Condimentos.",
+			"descricaoComoServir": "O Nosso Terrine é recomendado servir fresco e acompanhado de um belo Pão Italiano, para desmanchar na boca a mais alta qualidade de sabores da Mona Condimentos.",
+			"color": "#ED0F0F",
+			"thumbnail": "/images/img03.jpeg",
+			"valor": "R$ 20,00",
+			"galeria": [{
+				"01": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/119/desktop/lasanha01.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"02": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/119/desktop/lasanha02.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"03": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/119/desktop/lasanha03.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"04": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/119/desktop/lasanha04.jpg",
+					"alt": "",
+					"title": ""
+				}
+			}]
+		},
+		{   
+			"id": "molhopimenta",
+			"nome_produto": "Molho de Pimenta",
+			"descricao": "Muito sabor nas Pimentas a base de Cumary.",
+			"descricaoPagina": "Terrines feitos especialmente para você. Uma combinação especial de queijos e especiarias, prontos para consumir com um belo Pão da Mona Condimentos.",
+			"descricaoComoServir": "O Nosso Terrine é recomendado servir fresco e acompanhado de um belo Pão Italiano, para desmanchar na boca a mais alta qualidade de sabores da Mona Condimentos.",
+			"color": "#006A35",
+			"thumbnail": "/images/img01.jpeg",
+			"valor": "R$ 18,00",
+			"galeria": [{
+				"01": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/114/desktop/penne01.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"02": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/114/desktop/penne02.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"03": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/114/desktop/penne03.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"04": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/114/desktop/penne04.jpg",
+					"alt": "",
+					"title": ""
+				}
+			}]		
+		},
+		{
+			"id": "molhopesto",
+			"nome_produto": "Molho Pesto",
+			"descricao": "Mamma Mia! Manjericão Puro.",
+			"descricaoPagina": "Terrines feitos especialmente para você. Uma combinação especial de queijos e especiarias, prontos para consumir com um belo Pão da Mona Condimentos.",
+			"descricaoComoServir": "O Nosso Terrine é recomendado servir fresco e acompanhado de um belo Pão Italiano, para desmanchar na boca a mais alta qualidade de sabores da Mona Condimentos.",
+			"color": "#FC5D12",
+			"thumbnail": "/images/img04.jpeg",
+			"valor": "R$ 28,00",
+			"galeria": [{
+				"01": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/112/desktop/fettuccine01.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"02": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/112/desktop/fettuccine02.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"03": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/112/desktop/fettuccine03.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"04": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/112/desktop/fettuccine04.jpg",
+					"alt": "",
+					"title": ""
+				}
+			}]
+		},
+		{
+			"id": "beringela",
+			"nome_produto": "Antepasto de Beringela",
+			"descricao": "Antepasto de Beringela Fresca com Nozes",
+			"descricaoPagina": "Terrines feitos especialmente para você. Uma combinação especial de queijos e especiarias, prontos para consumir com um belo Pão da Mona Condimentos.",
+			"descricaoComoServir": "O Nosso Terrine é recomendado servir fresco e acompanhado de um belo Pão Italiano, para desmanchar na boca a mais alta qualidade de sabores da Mona Condimentos.",
+			"color": "#AD6B9D",
+			"thumbnail": "/images/img05.jpeg",
+			"valor": "à partir de R$ 58,00",
+			"galeria": [{
+				"01": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/118/desktop/noodles01.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"02": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/118/desktop/noodles02.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"03": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/118/desktop/noodles03.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"04": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/118/desktop/noodles04.jpg",
+					"alt": "",
+					"title": ""
+				}
+			}]
+		},
+		{
+			"id": "cebolacaramelizada",
+			"nome_produto": "Cebola Caramelizada",
+			"descricao": "Tradição nas Cebolas mais deliciosas da Região.",
+			"descricaoPagina": "Terrines feitos especialmente para você. Uma combinação especial de queijos e especiarias, prontos para consumir com um belo Pão da Mona Condimentos.",
+			"descricaoComoServir": "O Nosso Terrine é recomendado servir fresco e acompanhado de um belo Pão Italiano, para desmanchar na boca a mais alta qualidade de sabores da Mona Condimentos.",
+			"color": "#81D134",
+			"thumbnail": "/images/img02.jpeg",
+			"valor": "R$ 18,00",
+			"galeria": [{
+				"01": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/115/desktop/espaguete01.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"02": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/115/desktop/espaguete02.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"03": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/115/desktop/espaguete03.jpg",
+					"alt": "",
+					"title": ""
+				},
+				"04": {
+					"src": "https://konjacmassamf.admin.core.dcg.com.br/Custom/Content/Themes/Shared/Images/detalhes-produtos/115/desktop/espaguete04.jpg",
+					"alt": "",
+					"title": ""
+				}
+			}]
+
+		}
+
+	]
+}	

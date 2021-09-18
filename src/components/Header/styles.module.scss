@@ -1,0 +1,43 @@
+.headerContainer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    z-index: 50;
+    //background-color: #4444;
+
+    h4{
+        font-weight: 600;
+        text-transform: uppercase;  
+        font-family: Arial, Helvetica, sans-serif;
+        
+        @media(max-width: 390px) {
+
+            font-size: 0.8rem;
+        }
+        @media(max-width: 317px) {
+
+            font-size: 0.7rem;
+        }
+    }
+    span {
+
+        font-family: 'Indie Flower', cursive;
+        text-transform: capitalize;
+
+        @media(max-width: 390px) {
+
+            font-size: 0.8rem;
+        }
+        @media(max-width: 317px) {
+
+            font-size: 0.7rem;
+        }
+    }
+}
+
+.logo{
+    border-radius: 4rem;
+}

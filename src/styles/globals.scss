@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media(max-width: 1080px){
+
+    html{
+        font-size: 93.75%;
+    }
+}
+@media(max-width: 768px){
+
+    html{
+        font-size: 85.45%;
+    }
+}
+@media(max-width: 590px){
+
+    html{
+        font-size: 75.45%;
+    }
+}
+body {
+    
+    h1 {
+        font-size: 2rem;
+    }    
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+}

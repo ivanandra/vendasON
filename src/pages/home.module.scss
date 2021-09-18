@@ -1,0 +1,167 @@
+.productsLast {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    gap: 12rem;
+    padding: 0rem 3rem 3rem 3rem;
+    font-family: 'Indie Flower', cursive;
+
+    @media(max-width: 700px){
+        display: inline-block;
+        padding: 2rem;
+        margin-top: 0;
+    }  
+}
+
+.textMargin{
+    height: 4rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.imageProd{
+    border-radius: 10px;
+    display: block;
+    
+}
+
+.imageDestaque {
+    border-radius:10px;
+}
+
+.botaoTrouxa{
+        
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    width: 100%;
+    padding: 5px;
+    z-index: 50;
+    background-color: #5a1d37;
+    position: sticky;
+    top: 0;  
+    text-transform: uppercase;
+}
+
+.botaoTrouxaEnviar {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    width: 100%;
+    padding: 5px;
+    z-index: 50;
+    background-color: #5a1d37;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btnInput {
+    
+    display: block;
+
+   input[type=number]::-webkit-inner-spin-button { 
+
+        width: 15px;
+        display: flex;
+        align-items: center;
+        height: 45px;
+        margin: 17px;
+        padding: 5px;
+        transform: rotate(90deg);
+        filter: sepia(100%) hue-rotate(90deg);
+        cursor: pointer;
+    
+      }
+    
+    .btnStyle {
+        color: white;
+        background-color: #5a1d37;
+        height: 28px;
+        width: 120px;
+        }
+}
+
+.btnSaibaMais {
+    width: 100%;
+    font-weight: 500;
+    height: 30px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+.productsNames {
+    border: 2px solid;
+    padding: 2px;
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 100%;
+    display: grid;
+}
+
+.Descricoes {
+    text-align: center;
+    padding: 10px;
+}
+
+.ContainerFotos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 0rem 3rem 3rem 3rem;
+    gap: 3rem;
+   
+
+    @media(max-width: 913px){
+        display: grid;
+        margin: 2rem;
+    }  
+
+}
+
+.productsContainer {
+    text-align: center;
+}
+
+.InputStyle {
+   
+    width: 100%;
+    color: #5a1d37;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.1rem;
+    background-color: #f1ac54;
+    border-style: none;
+    height: 30px;
+    font-family: 'Indie Flower', cursive;
+    
+
+}
+
+.prodCards {
+    border: 2px solid;
+    border-radius: 1rem;
+    padding: 2px;
+    margin-top: 2rem;
+    display: grid;
+    width: 100%;
+    font-family: 'Indie Flower', cursive;
+   
+}
+
+
+
+

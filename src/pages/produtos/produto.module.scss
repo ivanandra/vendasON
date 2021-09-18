@@ -1,0 +1,109 @@
+.productSection {
+    
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        margin-top: 2rem;
+    }
+
+.Botao {
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.240rem;
+    font-weight: 500;
+    color: white;
+    width: 100%;
+    padding: 5px;
+    z-index: 50;
+    position: sticky;
+    top: 0;
+    
+    height: 100%;
+}
+.aClass{
+    text-decoration: none;
+}
+
+.productImage {
+    margin-bottom: 2rem;   
+} 
+
+.productImages {
+    display: flex;
+    justify-content: space-around;
+}
+
+.htext {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.productTexts {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+
+    .productSeparetedText {
+        font-size: 1.4rem;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-family: arial, sans-serif;
+        width: 50%;
+        align-items: center;
+        display: flex;
+        line-height: 1.4;
+        letter-spacing: 0.02rem;
+        font-family: 'Indie Flower', cursive;
+        
+        @media(max-width: 549px) {
+            width: 100%;
+        }
+    }
+
+    .productImages {
+        border-radius: 2rem;
+    }
+
+    @media(max-width: 549px) {
+
+        flex-direction: column;
+    }
+}
+
+.productTextsReverseColumn {
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+
+    .productSeparetedText {
+
+        font-size: 1.4rem;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-family: arial, sans-serif;
+        width: 50%;
+        align-items: center;
+        display: flex;
+        line-height: 1.4;
+        letter-spacing: 0.02rem;
+        font-family: 'Indie Flower', cursive;
+
+        @media(max-width: 549px) {
+            width: 100%;
+        }
+    }
+
+    .productImages {
+        border-radius: 2rem;
+    }
+
+    @media(max-width: 549px) {
+
+        flex-direction: column-reverse;
+    }
+}
+}
