@@ -67,20 +67,6 @@
 .btnInput {
     
     display: block;
-
-   input[type=number]::-webkit-inner-spin-button { 
-
-        width: 15px;
-        display: flex;
-        align-items: center;
-        height: 45px;
-        margin: 17px;
-        padding: 5px;
-        transform: rotate(90deg);
-        filter: sepia(100%) hue-rotate(90deg);
-        cursor: pointer;
-    
-      }
     
     .btnStyle {
         color: white;
@@ -138,16 +124,31 @@
 
 .InputStyle {
    
-    width: 100%;
-    color: #5a1d37;
-    font-weight: 500;
-    text-align: center;
-    font-size: 1.1rem;
-    background-color: #f1ac54;
-    border-style: none;
-    height: 30px;
-    font-family: 'Indie Flower', cursive;
-    
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: #d68c40;
+    border: 1px solid;
+
+    .plusAndMinusSign {
+
+        font-size: 2rem;
+        font-weight: 900;
+        width: 50%;
+        cursor: pointer;
+        background-color: #d68c40;
+        border-style: none;
+    }
+    .spanResult {
+        width: 30%;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+       // border-left: 1px solid;
+        //border-right: 1px solid;
+}   
 
 }
 

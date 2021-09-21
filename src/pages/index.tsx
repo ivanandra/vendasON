@@ -2,7 +2,6 @@ import { GetStaticPaths, GetStaticProps } from "next";
 import Image from "next/image";
 import styles from './home.module.scss';
 import Link from 'next/link';
-import { post } from "jquery";
 import { useRef, useState } from "react";
 import { useRouter } from "next/router";
 
@@ -40,23 +39,13 @@ export default function Home({latestProducts, splitProducts, doubleProducts}: Pr
 
     const router = useRouter();
     const pegaInput = useRef(null);
-    const [resultadoPedido, setResultadoPedido] = useState('');
-
-    const pegaValorResultadoPedido = (ev) => {
-        
-        setResultadoPedido(resultadoPedido + "" + ev.target.value);
- 
-    }
+    let [plusAndMinusSignals, setPlusAndMinusSignals] = useState(0);
         
     return (
           <div>
             <section className={styles.productsContainer}>               
                     <h4 className={styles.botaoTrouxa}>Selecione a Quantidade e Clique em "Enviar Pedido"</h4>  
                     <h4 style={{marginTop: '2rem', textTransform: 'uppercase', fontFamily: 'Indie Flower, cursive'}}>Mais Vendidos</h4>    
-
-                    <span>{resultadoPedido}</span>
-                    <span>{router.query.key}</span>
-
                 <div className={styles.productsLast}>
                     {latestProducts.map(product => {
                     return(
@@ -73,7 +62,11 @@ export default function Home({latestProducts, splitProducts, doubleProducts}: Pr
                                 <p>{product.descricao}</p>
                             </div>    
                             <div className={styles.btnInput}>
-                                <input type="number" placeholder="Selecione a Quantidade" className={styles.InputStyle}></input>  
+                                <div className={styles.InputStyle} id={product.id}>
+                                    <button className={styles.plusAndMinusSign} onClick={(ev) => setPlusAndMinusSignals(plusAndMinusSignals--)}>-</button>
+                                    <span className={styles.spanResult}>{plusAndMinusSignals}</span>
+                                    <button className={styles.plusAndMinusSign} onClick={(ev) => setPlusAndMinusSignals(plusAndMinusSignals++)}>+</button>    
+                                </div>    
                                 <Link href={`/produtos/${product.id}`}>
                                     <button className={styles.btnSaibaMais}type="button">Saiba Mais</button>
                                 </Link>    
@@ -89,7 +82,7 @@ export default function Home({latestProducts, splitProducts, doubleProducts}: Pr
                     <h4 className={styles.botaoTrouxaEnviar}>Enviar Pedido</h4> 
                 </Link>
                     <h4 style={{marginTop: '2rem', textTransform: 'uppercase', fontFamily: 'Indie Flower, cursive'}}>Produto 100% Artesanal</h4>
-               <div className={styles.ContainerFotos} onBlur={pegaValorResultadoPedido}>
+               <div className={styles.ContainerFotos}>
                 {splitProducts.map(produt => {
                     return(
                         <div className={styles.prodCards} key={produt.id}>
@@ -107,12 +100,11 @@ export default function Home({latestProducts, splitProducts, doubleProducts}: Pr
                                 </div> 
                             
                                 <div className={styles.btnInput}>
-                                    <input type="number" 
-                                    placeholder="Selecione a Quantidade" 
-                                    className={styles.InputStyle}
-                                    id={produt.nome_produto}
-                                    ref={pegaInput}                      
-                                    ></input>       
+                                    <div className={styles.InputStyle} id={produt.id} ref={pegaInput}>
+                                        <button className={styles.plusAndMinusSign} onClick={(ev) => setPlusAndMinusSignals(plusAndMinusSignals--)}>-</button>
+                                        <span className={styles.spanResult}>{plusAndMinusSignals}</span>
+                                        <button className={styles.plusAndMinusSign} onClick={(ev) => setPlusAndMinusSignals(plusAndMinusSignals++)}>+</button>    
+                                    </div>       
                                 </div>               
                                 <Link href={`/produtos/${produt.id}`}>
                                     <button className={styles.btnSaibaMais}type="button">Saiba Mais</button>
@@ -126,7 +118,7 @@ export default function Home({latestProducts, splitProducts, doubleProducts}: Pr
 
                 {doubleProducts.map(produti => {
                     return(
-                        <div className={styles.prodCards}>
+                        <div className={styles.prodCards} key={produti.id}>
                             <Image className={styles.imageProd}
                                 width={250}
                                 height={250}
@@ -140,7 +132,11 @@ export default function Home({latestProducts, splitProducts, doubleProducts}: Pr
                             </div> 
                         
                             <div className={styles.btnInput}>
-                                <input type="number" placeholder="Selecione a quantidade" className={styles.InputStyle}></input>       
+                            <div className={styles.InputStyle} id={produti.id}>
+                                        <button className={styles.plusAndMinusSign} onClick={(ev) => setPlusAndMinusSignals(plusAndMinusSignals--)}>-</button>
+                                        <span className={styles.spanResult}>{plusAndMinusSignals}</span>
+                                        <button className={styles.plusAndMinusSign} onClick={(ev) => setPlusAndMinusSignals(plusAndMinusSignals++)}>+</button>    
+                                    </div>         
                             </div>               
                             <Link href={`/produtos/${produti.id}`}>
                                 <button className={styles.btnSaibaMais}type="button">Saiba Mais</button>
@@ -175,14 +171,6 @@ export const getStaticProps: GetStaticProps = async () => {
     //const allProducts = produtos.slice(2, produtos.lenght);
     const splitProducts = produtos.slice(2,5);
     const doubleProducts = produtos.slice(5,produtos.lenght);
-   
-   /* const galeria = data.map(galeria => {
-        return {
-            src: galeria.src,
-            alt: galeria.alt,
-            title: galeria.title
-        };
-    })*/
 
     return {
         props: {
